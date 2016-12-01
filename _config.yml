@@ -69,6 +69,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  reop: https://github.com/czars/dev-world.git
+  reop: https://github.com/czars/czars.github.io.git
   branch: master
-  
+
