@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: climates
+subtitle: czars' dev world
 description:
-author: John Doe
-language:
-timezone:
+author: Paul Chou
+language: default
+timezone: UTC+8
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -63,12 +63,12 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: maupassant
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  reop: https://github.com/czars/czars.github.io
+  repository: git@github.com:czars/czars.github.io.git
   branch: master
 
