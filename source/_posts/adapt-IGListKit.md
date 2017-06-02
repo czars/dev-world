@@ -1,3 +1,10 @@
+---
+{}
+date: 2017-06-03 00:42:11
+title:
+tags:
+---
+
 # IGListKit adoption
 
 自從公司的App建構了新版的首頁之後，就在思考有沒有更能夠改善效能跟方便擴充性的架構。後來看到了FB的iOS Developer分享了這個Talk [(talk at try! Swift NYC)](https://realm.io/news/tryswift-ryan-nystrom-refactoring-at-scale-lessons-learned-rewriting-instagram-feed/)
@@ -21,4 +28,6 @@ content : [
 3. 在 `UICollectionView` 中插入 `Horizontal UICollectionView`，delegate需要獨立出來成為一個 `class / file`，而這樣的設計，也增加了閱讀的困難度
 
 `IGListKit` 主要就是解決了以上的三個問題。
+
+
 
